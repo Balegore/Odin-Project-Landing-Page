@@ -46,13 +46,15 @@ button{
 }
 
 .subheader img{
+    box-sizing: border-box;
     height: 200px;
-    width: 400px;
+    width: auto;
     line-height: 200px;
     background-color: grey;
     text-align: center;   
     font-size: 12px;
-    flex-shrink: 0;  
+    flex-shrink: 0;
+    border: 5px solid white;  
      
 }
 
