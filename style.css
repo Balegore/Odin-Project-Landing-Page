@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
 body{
     display: flex;
     flex-flow: column nowrap;
-    font-family: "Futura" sans-serif;
+    font-family: 'Open Sans', sans-serif;
     min-width: min-content;
     flex-basis: min-content;
-    max-width: 1440px;
+    max-width: 1080px;
     margin-left: auto;
     margin-right: auto;
     background-color: black;
@@ -17,23 +19,23 @@ button{
   font-weight: bold;
   text-align: center;
   width: 100px;
-  height: 30px;
+  height: 35px;
   border: none;
 }
 
-.header, .subheader{
+.header, .subheader, .footer{
     display: flex;    
     justify-content: space-between;
     background-color: #1F2937;
     color: #F9FAF8;
     padding-left: 100px;
     padding-right: 100px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
     overflow: visible;
     flex: 1 0 min-content;
     flex-flow: row nowrap; 
     align-items: center; 
-    gap: 20px;
+    gap: 50px;
 }
 
 .header{padding-top: 20px;}
@@ -50,7 +52,7 @@ button{
     background-color: grey;
     text-align: center;   
     font-size: 12px;
-    flex-shrink: 0;   
+    flex-shrink: 0;  
      
 }
 
@@ -76,8 +78,7 @@ button{
 }    
 .herotextheader{
     font-size: 48px;
-    font-weight: bolder;
-    
+    font-weight: bold;    
 }
 .button1{margin-top: 10px;}
 
@@ -105,6 +106,8 @@ button{
     align-items: center;
     gap: 40px;
     flex: 1 0 min-content;
+    padding-left: 175px;
+    padding-right: 175px;
     
 }
 
@@ -115,13 +118,74 @@ button{
 }
 .infobox img{
     display: inline-block;    
-    width: 200px;
-    height: 200px;
-    line-height: 200px;
-    border: 4px solid #3882F6;
+    width: 175px;
+    height: 175px;
+    line-height: 175px;
+    border: 3px solid #3882F6;
     border-radius: 14px;
     box-sizing: border-box;    
 }
 .infotext{
-    max-width: 200px;
+    max-width: 175px;
+}
+
+.thor{
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #e5e7eb;
+    justify-content: center;    
+    flex: 1 0 min-content;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+}
+.thorquote{
+    margin-top: 100px;
+    font-size: 36px;
+    font-style: italic;
+}
+.thorauthor{
+    font-size: 20px;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+.signupbox{
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1 0 auto;
+    border-radius: 12px;
+    background-color: #3882F6;
+    color: white;
+    align-items: center;
+    padding: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    font-size: 16px;
+}
+
+.signup
+{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.signupheader{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.button2{
+border: 2px solid white;
+}
+
+.footer{
+ padding: 20px;
+ align-items: center;
+ justify-content: center;
+ font-size: 10px;
 }
